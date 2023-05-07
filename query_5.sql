@@ -1,5 +1,5 @@
 SELECT name
 FROM disciplines d  
 JOIN teachers t ON t.id = d.teacher_id
-WHERE t.id = 1
+WHERE t.id = 3
 GROUP BY d.name
